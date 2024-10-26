@@ -24,7 +24,7 @@ defmodule Voronoiex.MixProject do
     [
       {:plug_cowboy, "~> 2.0"},
       {:jason, "~> 1.4"},
-      {:vix, "~> 0.30.0"},
+      {:vix, "~> 0.30.0"}
     ]
   end
 end

@@ -1,5 +1,6 @@
 # config/config.exs
 
 config :voronoiex, YourAppWeb.Endpoint,
-  adapter: Bandit.PhoenixAdapter, # <---- ADD THIS LINE
+  # <---- ADD THIS LINE
+  adapter: Bandit.PhoenixAdapter,
   url: [host: "localhost"]
